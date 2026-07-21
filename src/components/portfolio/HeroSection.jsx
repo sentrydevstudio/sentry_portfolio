@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { motion, useMotionValue, useTransform, AnimatePresence } from 'framer-motion';
+import { useMotionValue, useTransform, AnimatePresence } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 
 export default function HeroSection() {
@@ -11,8 +11,8 @@ export default function HeroSection() {
   // Array of images to cycle through
   const images = [
     '/img/Sentry_B&W.png',
-    '/img/Villain_1.png',
-    '/img/Villain_2.png',
+    /*'/img/Villain_1.png',
+    '/img/Villain_2.png', */
     // Add more image paths here
   ];
 
@@ -25,14 +25,17 @@ export default function HeroSection() {
     };
 
     const updateMouse = (e) => {
-    mouseX.set(e.clientX - window.innerWidth / 2);
-    mouseY.set(e.clientY - window.innerHeight / 2);
+      mouseX.set(e.clientX - window.innerWidth / 2);
+      mouseY.set(e.clientY - window.innerHeight / 2);
     };
 
     window.addEventListener('mousemove', updateMouse);
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    return () => {
+      window.removeEventListener('mousemove', updateMouse);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [mouseX, mouseY]);
 
   // Image carousel interval
   useEffect(() => {
