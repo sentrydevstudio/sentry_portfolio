@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, Github, X } from 'lucide-react';
 
 export default function ProjectsSection() {
@@ -68,7 +68,7 @@ export default function ProjectsSection() {
       image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop',
       tags: ['React Native', 'Firestore(Firebase)', 'Chart.js'],
       liveUrl: 'https://fitness-tracker-cdc8eygnh-yusuf-israels-projects.vercel.app/',
-      githubUrl: '#https://github.com/sentrydevstudio/fitness_tracker',
+      githubUrl: '#https://github.com/Sentrail/fitness_tracker',
     },
     {
       id: 7,
@@ -77,8 +77,8 @@ export default function ProjectsSection() {
       longDescription: 'A comprehensive tcketing application for monitoring tickets sales.',
       image: '/img/ticket.jpeg',
       tags: ['HTML', 'Javscript', 'CSS', 'Paystack'],
-      liveUrl: 'https://sentrydevstudio.github.io/Event_Ticketing_Website/',
-      githubUrl: 'https://github.com/sentrydevstudio/Event_Ticketing_Website',
+      liveUrl: 'https://sentrail.github.io/Event_Ticketing_Website/',
+      githubUrl: 'https://github.com/Sentrail/Event_Ticketing_Website',
     },
     {
       id: 8,
@@ -87,8 +87,8 @@ export default function ProjectsSection() {
       longDescription: 'A powerful and comprehensive application for displaying of farm produce.',
       image: '/img/farm.avif',
       tags: ['Javscript','HTML', 'CSS', 'Paystack'],
-      liveUrl: 'https://sentrydevstudio.github.io/Sunrise_Acre_Farm/',
-      githubUrl: 'https://github.com/sentrydevstudio/Sunrise_Acre_Farm',
+      liveUrl: 'https://sentrail.github.io/Sunrise_Acre_Farm/',
+      githubUrl: 'https://github.com/Sentrail/Sunrise_Acre_Farm',
     },
     {
       id: 9,
@@ -97,8 +97,8 @@ export default function ProjectsSection() {
       longDescription: 'An intuitive photopgrapy portfolio for displaying of shoots.',
       image: '/img/photography.avif',
       tags: ['Javscript','CSS','HTML'],
-      liveUrl: 'https://sentrydevstudio.github.io/Photography_Portfolio_Website/',
-      githubUrl: 'https://github.com/sentrydevstudio/Photography_Portfolio_Website',
+      liveUrl: 'https://sentrail.github.io/Photography_Portfolio_Website/',
+      githubUrl: 'https://github.com/Sentrail/Photography_Portfolio_Website',
     },
     {
       id: 11,
@@ -118,7 +118,7 @@ export default function ProjectsSection() {
       image: '/img/taverna.png',
       tags: ['PHP', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: 'https://la-taverna.rf.gd/?i=1',
-      githubUrl: 'https://github.com/sentrydevstudio/La_Taverna',
+      githubUrl: 'https://github.com/Sentrail/La_Taverna',
     },
     {
       id: 13,
@@ -128,7 +128,7 @@ export default function ProjectsSection() {
       image: '/img/cone.png',
       tags: ['PHP', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: 'https://Cone_Cafe.rf.gd/',
-      githubUrl: 'https://github.com/sentrydevstudio/Cone_Cafe',
+      githubUrl: 'https://github.com/Sentrail/Cone_Cafe',
     },
     {
       id: 14,
@@ -138,7 +138,7 @@ export default function ProjectsSection() {
       image: '/img/texas.png',
       tags: ['PHP', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: 'https://texas-301.rf.gd/',
-      githubUrl: 'https://github.com/sentrydevstudio/texas_street_301',
+      githubUrl: 'https://github.com/Sentrail/texas_street_301',
     },
     {
       id: 15,
@@ -148,7 +148,7 @@ export default function ProjectsSection() {
       image: '/img/mexa.png',
       tags: ['PHP', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: 'https://mexa-cocina.rf.gd/',
-      githubUrl: 'https://github.com/sentrydevstudio/mexa_cocina',
+      githubUrl: 'https://github.com/Sentrail/mexa_cocina',
     },
     {
       id: 16,
@@ -158,7 +158,7 @@ export default function ProjectsSection() {
       image: '/img/keyspice.png',
       tags: ['PHP', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: 'https://keyspice_restaurant.rf.gd/',
-      githubUrl: 'https://github.com/sentrydevstudio/keyspice_restaurant',
+      githubUrl: 'https://github.com/Sentrail/keyspice_restaurant',
     },
     {
       id: 17,
@@ -168,7 +168,7 @@ export default function ProjectsSection() {
       image: '/img/kingfisher.png',
       tags: ['PHP', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: 'https://kingfisherafrica.rf.gd/',
-      githubUrl: 'https://github.com/sentrydevstudio/KingFisher_Africa',
+      githubUrl: 'https://github.com/Sentrail/KingFisher_Africa',
     },
     {
       id: 18,
@@ -178,7 +178,7 @@ export default function ProjectsSection() {
       image: '/img/hotel-bg.jpg',
       tags: ['PHP', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: 'https://grand-horizon.rf.gd/?i=1',
-      githubUrl: 'https://github.com/sentrydevstudio/Grand_Horizon',
+      githubUrl: 'https://github.com/Sentrail/Grand_Horizon',
     },
     {
       id: 19,
@@ -188,7 +188,7 @@ export default function ProjectsSection() {
       image: '/img/hero-bg.jpg',
       tags: ['PHP', 'JavaScript', 'HTML', 'CSS'],
       liveUrl: 'https://lumina-fine.rf.gd/?i=1',
-      githubUrl: 'https://github.com/sentrydevstudio/Lumina_Fine',
+      githubUrl: 'https://github.com/Sentrail/Lumina_Fine',
     },
 
   ];
